@@ -1,0 +1,80 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: 12px solid #2A2E2C;
+    width:400px;
+    height:500px;  
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    background-color: #2A2E2C;
+}
+
+.result {
+    background-color: #ECD5AE;
+    height:150px;
+    border-color: #ECD5AE;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    padding:5px;
+}
+
+.previous {
+    font-size: 40px;
+}
+
+.rows {
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    height:70px;
+    width:100px;
+    background-color:#826865;
+    border-color:#826865 ;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.buttons:hover{
+    background-color:rgb(98, 82, 79);
+}
+
+.first-row {
+    background-color: #2A2E2C;
+    border-color: #2A2E2C;
+    border-radius: 8px;
+    height:70px;
+    width:100px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.first-row:hover {
+    background-color: #202322;
+}
+
+.operators {
+    background-color: #741A2F;
+    border-color: #741A2F;
+    border-radius: 8px;
+    height:70px;
+    width:100px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.operators:hover {
+    background-color: #5f1727;
+}
+
+#equal-button{
+    width:200px;
+}

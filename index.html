@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator"> 
+        <div class="result">0</div>
+
+        <div class="rows">
+            <button class="first-row" value ="clear" data-key="clear">AC</button>
+            <button class="first-row" value ="delete" data-key="delete">DEL</button>
+            <button class="first-row" value ="%" data-key="percentage">%</button>
+            <button class="operators" value ="/" data-key="operator">/</button>
+        </div>
+
+        <div class="rows">
+            <button class="buttons" value ="7" data-key="operand">7</button>
+            <button class="buttons" value ="8" data-key="operand">8</button>
+            <button class="buttons" value ="9" data-key="operand">9</button>
+            <button class="operators" value ="*" data-key="operator">X</button>
+        </div>
+
+        <div class="rows">
+            <button class="buttons" value ="4" data-key="operand">4</button>
+            <button class="buttons" value ="5" data-key="operand">5</button>
+            <button class="buttons" value ="6" data-key="operand">6</button>
+            <button class="operators" value ="-" data-key="operator">-</button>
+        </div>
+
+        <div class="rows">
+            <button class="buttons" value ="1" data-key="operand">1</button>
+            <button class="buttons" value ="2" data-key="operand">2</button>
+            <button class="buttons" value ="3" data-key="operand">3</button>
+            <button class="operators" value ="+" data-key="operator">+</button>
+        </div>
+
+        <div class="rows">
+            <button class="buttons" value ="0" data-key="operand">0</button>
+            <button class="buttons" value ="." data-key="decimal">.</button>
+            <button class="operators" id ="equal-button" value ="equal" data-key="equal">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
